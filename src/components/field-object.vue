@@ -86,6 +86,7 @@
         this.keyTypes[this.newKeyName] = this.newKeyType;
         this.keyTypes = { ...this.keyTypes };
         this.newKeyName = "";
+        this.$forceUpdate();
       }
     }
   };
